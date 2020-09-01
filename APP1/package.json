@@ -1,0 +1,43 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "checkSubmission": {
+    "ex": 1,
+    "students": [
+        {"id": "305231094", "fullName": "zahor kalores", "email": "zahor55@gmail.com"},
+        {"id": "204421036", "fullName": "or hadded", "email": "Orhadad04@gmail.com"}
+    ],
+    "os": "windows",
+    "device": "android", 
+    "deliveryDate": "27/03/19", 
+    "delay": true,
+    "delayReason": "a lot of strating proublems",
+    "comments": "test and run with expo"
+},
+  "dependencies": {
+    "expo": "^32.0.0",
+    "native-base": "^2.12.1",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-cards": "^1.1.4",
+    "react-native-elements": "^1.1.0",
+    "react-navigation": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-native": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "prettier": "^1.16.4"
+  },
+  "private": true
+}
